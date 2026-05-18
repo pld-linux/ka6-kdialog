@@ -6,6 +6,7 @@
 %define		qtver		6.8
 %define		kaname		kdialog
 Summary:	Display dialog boxes from shell scripts
+Summary(pl.UTF-8):	Pokazuj okienka dialogowe w skryptach powłoki
 Name:		ka6-%{kaname}
 Version:	26.04.1
 Release:	1
@@ -39,6 +40,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 KDialog allows you to display dialog boxes from shell scripts.
+
+%description -l pl.UTF-8
+KDialog pozwala Ci wyświetlać okienka dialogowe ze skryptów powłoki.
 
 %prep
 %setup -q -n %{kaname}-%{version}
