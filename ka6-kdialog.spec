@@ -1,19 +1,19 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	26.08.0
+%define		kdeappsver	26.08.1
 %define		kframever	6.13.0
 %define		qtver		6.8
 %define		kaname		kdialog
 Summary:	Display dialog boxes from shell scripts
 Summary(pl.UTF-8):	Pokazuj okienka dialogowe w skryptach powłoki
 Name:		ka6-%{kaname}
-Version:	26.08.0
+Version:	26.08.1
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	278c63f8b69b1b7ff26ebb18cfa4befc
+# Source0-md5:	5bcccbec0beb131fadd162f9fa742d29
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel
